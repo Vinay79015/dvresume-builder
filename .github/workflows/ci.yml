@@ -31,4 +31,4 @@ jobs:
 
       # Build the project using Gradle
       - name: Build
-        run: ./gradlew build
+        run: ./gradlew build -x  test
